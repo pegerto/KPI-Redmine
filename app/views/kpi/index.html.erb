@@ -1,0 +1,14 @@
+<h2>Key performance indicators  for <%= @project.name %></h2>
+
+<h3> Reported vs Closed</h3> 
+<p>
+ Provide an overview, number of issues open and closed during the month.
+</p>
+<%= image_tag(@gcreated_closed) %>
+
+<h3> Estimated effort </h3>
+
+<p>
+Count of hours estimated based in the issues open per month, this is the general load per month that team members estimated when they open an issue.
+</p>
+<%= image_tag(@gestimatedeffort) %>
